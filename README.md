@@ -53,10 +53,13 @@ sudo systemctl enable docker
 
 Allow non-root user to run Docker:
 sudo usermod -aG docker $USER
+---
+
+![WhatsApp Image 2025-05-21 at 23 34 14_a242cb8e](https://github.com/user-attachments/assets/6e1ad706-f7ff-410d-925c-147c9cc71ea8)
 
 Verify Docker:
 docker --version
-
+---
 ![WhatsApp Image 2025-05-21 at 23 34 14_a242cb8e](https://github.com/user-attachments/assets/6e1ad706-f7ff-410d-925c-147c9cc71ea8)
 
 Step 3: Install Minikube:
@@ -84,6 +87,8 @@ curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 
 Verify Helm installation:
 helm version
+
+![WhatsApp Image 2025-05-21 at 23 34 14_a242cb8e](https://github.com/user-attachments/assets/6e1ad706-f7ff-410d-925c-147c9cc71ea8)
 
 Step 6: Install ArgoCD CLI:
 Download ArgoCD CLI binary:
