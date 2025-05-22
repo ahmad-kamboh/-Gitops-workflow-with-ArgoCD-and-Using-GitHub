@@ -13,7 +13,7 @@ This guide walks you through setting up a GitOps workflow using **ArgoCD**, **Gi
 - User with `sudo` privileges
 
 ---
-
+![WhatsApp Image 2025-05-21 at 23 34 14_a242cb8e](https://github.com/user-attachments/assets/6e1ad706-f7ff-410d-925c-147c9cc71ea8)
 ## 🔄 Update System
 
 ```bash
@@ -55,12 +55,9 @@ Allow non-root user to run Docker:
 sudo usermod -aG docker $USER
 ---
 
-![WhatsApp Image 2025-05-21 at 23 34 14_a242cb8e](https://github.com/user-attachments/assets/6e1ad706-f7ff-410d-925c-147c9cc71ea8)
-
 Verify Docker:
 docker --version
----
-![WhatsApp Image 2025-05-21 at 23 34 14_a242cb8e](https://github.com/user-attachments/assets/6e1ad706-f7ff-410d-925c-147c9cc71ea8)
+
 
 Step 3: Install Minikube:
 Download Minikube binary:
@@ -108,10 +105,10 @@ sudo usermod -aG docker $USER
 Apply group change:
 newgrp docker
 
+![WhatsApp Image 2025-05-21 at 23 34 16_fd692ea9](https://github.com/user-attachments/assets/5e08689e-4864-4545-8851-c605a8222902)
+
 Check Docker:
 docker ps
-
-![WhatsApp Image 2025-05-21 at 23 34 16_fd692ea9](https://github.com/user-attachments/assets/5e08689e-4864-4545-8851-c605a8222902)
 
 Restart Minikube with Docker driver:
 minikube start --driver=docker
