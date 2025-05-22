@@ -85,8 +85,6 @@ curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 Verify Helm installation:
 helm version
 
-![WhatsApp Image 2025-05-21 at 23 34 14_a242cb8e](https://github.com/user-attachments/assets/6e1ad706-f7ff-410d-925c-147c9cc71ea8)
-
 Step 6: Install ArgoCD CLI:
 Download ArgoCD CLI binary:
 curl -sSL -o argocd-linux-amd64 https://github.com/argoproj/argo-cd/releases/latest/download/argocd-linux-amd64
@@ -104,8 +102,6 @@ sudo usermod -aG docker $USER
 
 Apply group change:
 newgrp docker
-
-![WhatsApp Image 2025-05-21 at 23 34 16_fd692ea9](https://github.com/user-attachments/assets/5e08689e-4864-4545-8851-c605a8222902)
 
 Check Docker:
 docker ps
